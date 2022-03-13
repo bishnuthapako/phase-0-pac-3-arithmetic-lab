@@ -66,39 +66,3 @@ function preserveDecimal(n){
     console.log(parseFloat("hfafhaa"));
     return parseFloat(n)
 }
-
-
-// makeInt("2", 10)
-
-// function preserveDecimal(n){
-//     return parseFloat(n);
-// }
-// preserveDecimal("80.123999");
-
-
-// function makeInt(n, base){
-//     const parsed = parseInt(n,base)
-//     return parsed;
-//  }
-
-
-/*
-
-function roughScale(x, base) {
-    const parsed = parseInt(x, base);
-    if (isNaN(parsed)) { return 0; }
-    return parsed * 100;
-  }
-  
-  console.log(roughScale(' 0xF', 16));
-  // expected output: 1500
-  
-  console.log(roughScale('321', 2));
-  // expected output: 0
-
-  */
-  
-
-
-
-
